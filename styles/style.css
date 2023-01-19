@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: red;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 80px;
+  max-width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 15px;
+  margin: 5px 0px;
+  background-color: #282828;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover, button:active{
+  background-color: red;
+}
